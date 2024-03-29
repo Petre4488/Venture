@@ -6,10 +6,11 @@ import styles from './globals.css'
 export default function Home() {
   return (
     <>
-      <div className={styles.wrapper}></div>
-      <NavBar />
-      <BackgroundBeamsDemo />
-      <CanvasRevealEffectDemo />
+      <div className={styles.wrapper}>
+        <NavBar />
+        <BackgroundBeamsDemo />
+        <CanvasRevealEffectDemo />
+      </div>
     </>
   );
 }
